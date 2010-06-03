@@ -45,6 +45,7 @@ Qudo::Plugin::Logger - logger for qudo.
             },
         }
     );
+    $manager->plugins->{logger}->debug('debug message here.');
 
 =head1 DESCRIPTION
 
@@ -53,10 +54,8 @@ Qudo::Plugin::Logger is Log::Dispatch wrapper for qudo.
 =head1 AUTHOR
 
 id:lamanotrama
+
 Atsushi Kobayashi E<lt>nekokak _at_ gmail _dot_ comE<gt>
-
-=head1 THANKS
-
 
 =head1 LICENSE
 
